@@ -17,6 +17,14 @@ This project is a minimalist raytracer written in a single C++ file. It's design
   - Refraction (glass/transparency) with Fresnel effect.
 - **Image Output:** Renders the scene to a `.ppm` image file.
 
+## Example Images
+
+![4](https://github.com/user-attachments/assets/c49db8e6-865d-4bc2-a952-1b51c2ada779)
+![3](https://github.com/user-attachments/assets/7eec1c15-1c4d-4ecc-aeed-f395e2d4a42f)
+![2](https://github.com/user-attachments/assets/d55ef4e5-ccce-49ad-a689-c3d96b1a58a6)
+![1](https://github.com/user-attachments/assets/97a160f6-b603-42f0-b96b-d6bf8da53133)
+
+
 ## Prerequisites
 
 To compile and run this project, you need a C++ compiler that supports C++11 or later. `g++` is recommended on Linux.
