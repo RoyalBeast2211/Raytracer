@@ -66,8 +66,7 @@ To change the central sphere's color to blue, find its definition in `main()` an
 **Original:**
 
 ```cpp
-// filepath: /home/omkar/code/Projects/Raytracer/raytracer.cpp
-// ...existing code...
+
     // Main central sphere (colored, reflective and partly transparent)
     spheres.push_back(Sphere(
         Vec3f(0.0, 0, -20),      // Centered in front of camera
@@ -75,14 +74,12 @@ To change the central sphere's color to blue, find its definition in `main()` an
         Vec3f(1.00, 0.32, 0.36), // Redish color
         1,                       // Reflective
         0.5));                   // Semi-transparent
-// ...existing code...
 ```
 
 **Modified (to blue):**
 
 ```cpp
-// filepath: /home/omkar/code/Projects/Raytracer/raytracer.cpp
-// ...existing code...
+
     // Main central sphere (colored, reflective and partly transparent)
     spheres.push_back(Sphere(
         Vec3f(0.0, 0, -20),      // Centered in front of camera
@@ -90,7 +87,7 @@ To change the central sphere's color to blue, find its definition in `main()` an
         Vec3f(0.2, 0.2, 1.0),    // Blue color
         1,                       // Reflective
         0.5));                   // Semi-transparent
-// ...existing code...
+
 ```
 
 Feel free to add, remove, or modify the spheres to create your own unique scenes!
